@@ -13,8 +13,6 @@ from metrics_multi_roc import metrics_multiroc, aggregate_AUC
 def complete_roc_analysis (y_train, y_test, X_test, X_train, model, classifier_name="Classifier", key_results_display = None, multilabel=False):
     """Complete ROC analysis using your existing functions."""
     
-    n_classes = len(np.unique(y_test))
-    
     # 1. Whiten probabilities using your existing function
     proba_test_w, proba_train_w = whitening_predicted_proba_stable(X_test, X_train, model, y_test, multilabel=None)
     
