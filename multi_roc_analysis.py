@@ -118,4 +118,4 @@ def complete_roc_analysis (y_train, y_test, X_test, X_train, model, classifier_n
         }
     }
 
-# Aggregating Multiclass ROC Curves, with Applications to ESG and Credit Risk Management. Rosa Carolina Rosciano, Univerity of Pavia (2025)
+# Aggregating Multiclass ROC Curves, with Applications to ESG and Credit Risk Management. Rosa Carolina Rosciano, Univerity of Pavia (2025).
