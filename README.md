@@ -47,14 +47,14 @@ cd multiclass-roc-gini
   
 
 **Key Modules**
-* gini_whitening.py →	Gini mean difference and ZCA whitening
-* metrics_multi_roc.py	→ Multiclass ROC aggregation with Gini weights
-* multi_roc_analysis.py	→ End-to-end pipeline for ROC curve analysis
-* multi_roc_plotting.py →	Interactive and static ROC/PR visualization 
-* check_robustness.py	RGR → calculations per variable and overall
-* proba_whitening.py → Numerical stabilization for probability whitening
+* gini_whitening.py →	Gini mean difference and ZCA whitening.
+* metrics_multi_roc.py	→ Multiclass ROC aggregation with Gini weights.
+* multi_roc_analysis.py	→ End-to-end pipeline for ROC curve analysis.
+* multi_roc_plotting.py →	Interactive and static ROC/PR visualization.
+* proba_whitening.py → Numerical stabilization for probability whitening.
+* * robustness.py	→ Perturbation-driven robustness analysis.
 * utils.py → Data integrity checks and auxiliary functions. This function is forked from: https://github.com/GolnooshBabaei/safeaipackage
-* robustness.py	→ Perturbation-driven robustness analysis. This function is forked from: https://github.com/GolnooshBabaei/safeaipackage
+* check_robustness.py	RGR → calculations per variable and overall. This function is forked from: https://github.com/GolnooshBabaei/safeaipackage
 * MulticlassCreditESG → is an example application of the package for a highly imbalanced credit scoring dataset.
 
 
