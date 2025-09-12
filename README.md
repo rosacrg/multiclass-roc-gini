@@ -2,7 +2,7 @@ This repository provides a Python implementation of a framework for multiclass R
 
 The multidimensional Gini-weighted multiclass ROC methodology is especially well-suited for imbalanced datasets because it prioritizes true discriminative power rather than sample frequency, making model evaluation more reliable and interpretable in settings where minority classes are critical.
 
-Unlike traditional macro-averaging (which treats all classes equally regardless of their reliability) and micro-averaging (which lets majority classes dominate the metric), the multidimensional Gini index assigns each class a weight based on its actual discriminative contribution to model performance. This ensures that minority classes with high risk—like defaults in credit risk—are not neglected just because their sample sizes are small.
+Unlike traditional macro-averaging (which treats all classes equally regardless of their reliability) and micro-averaging (which lets majority classes dominate the metric), the multidimensional Gini index assigns each class a weight based on its actual discriminative contribution to model performance. 
 
 Gini-based weighting highlights classes that the model separates most effectively, even if those classes have few samples. This prevents the evaluation from being biased by the over-representation of majority classes, and guards against inflated scores that can mask catastrophic failures in critical minority groups.
 
@@ -20,10 +20,9 @@ Because the Gini-weighted ROC curve provides a single, interpretable metric (AUC
 
 
 **Installation:**
-Clone the repository and install dependencies:
-git clone https://github.com/<your_username>/<repo_name>.git
-cd <repo_name>
-pip install -r requirements.txt
+Clone the repository:
+git clone https://github.com/rosacrg/multiclass-roc-gini.git
+cd multiclass-roc-gini
 
 
 **Dependencies include:**
