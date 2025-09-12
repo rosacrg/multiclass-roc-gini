@@ -76,3 +76,7 @@ See the thesis for full mathematical exposition and regulatory context.
 
 **Contributing:**
 Contributions, bug reports, and feature requests are welcome! Please submit via Issues or pull requests. For major changes, open an issue first to discuss.
+
+**License**
+This project is licensed under the terms of the MIT License.
+
