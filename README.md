@@ -35,7 +35,7 @@ cd multiclass-roc-gini
 * xgboost
 * torch
 * SAFE AI package (for robustness functions)
-* 
+
 
 **Getting Started**
 1. Data Preparation → prepare your train/test datasets as Pandas DataFrames. Target values should be integer-encoded for multiclass problems.
