@@ -1,4 +1,4 @@
-This repository provides a Python implementation of a framework for multiclass ROC analysis using the Multidimensional Gini Index. This framework generates a single multiclass ROC curve for the multiclass case. The methodology supports robust interactive visualizations. It enables class-weighted aggregation of multiclass ROC curves and incorporates rigorously tested robustness analysis tools.
+This repository provides a framework for multiclass ROC analysis using the Multidimensional Gini Index. The methodology supports robust interactive visualizations. It enables class-weighted aggregation of multiclass ROC curves, and incorporates rigorously tested robustness analysis tools.
 
 The multidimensional Gini-weighted multiclass ROC methodology is especially well-suited for imbalanced datasets because it prioritizes true discriminative power rather than sample frequency, making model evaluation more reliable and interpretable in settings where minority classes are critical.
 
@@ -17,13 +17,6 @@ Because the Gini-weighted ROC curve provides a single, interpretable metric (AUC
 * Interactive Plotly ROC Curves with real-time threshold selection and performance metrics (accuracy, precision, recall, F1-score).
 * Robustness Analysis using SAFE AI RGR and RGA methods for model stability against input perturbations.
 * Comprehensive comparison with traditional metrics: Macro-AUC, Micro-AUC, and Gini-weighted metrics.
-
-
-**Installation:**
-Clone the repository:
-git clone https://github.com/rosacrg/multiclass-roc-gini.git
-cd multiclass-roc-gini
-
 
 **Dependencies include:**
 * numpy
